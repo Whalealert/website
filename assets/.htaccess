@@ -1,1 +1,4 @@
-IndexIgnore *
+<FilesMatch “\.(?:inc|html|css|png|svg)$”>
+Order allow,deny
+Deny from all
+</FilesMatch>
